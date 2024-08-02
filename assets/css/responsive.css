@@ -1,0 +1,413 @@
+
+@media all and (max-width: 1199px){
+.d_mobile{
+	display: block;
+}
+.d_desktop{
+	display: none;
+}
+.menu ul{
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+}
+.menu{
+	position: absolute;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.logo a img {
+	width: 150px;
+	height: auto;
+}
+.menu {
+	position: absolute;
+	top: 100px;
+	left: 0;
+	width: 100%;
+	background: rgba(8, 37, 75, 1);
+	padding: 20px 0px;
+	display: none;
+	z-index: 10;
+}
+.menu .btn_style {
+	width: 180px;
+	margin: auto;
+}
+.menu ul li a {
+	margin-right: 0px;
+	margin-bottom: 15px;
+}
+.menu ul li a:hover, .menu ul li .active {
+	color: #FFF;
+}
+.menu ul li a::before {
+	bottom: -3px;
+	background: #FFF;
+}
+.menu ul li a:hover, .menu ul li .active {
+	color: #FFF;
+}
+.header_main {
+	padding: 15px 0px;
+	position: relative;
+	z-index: 2;
+}
+.menu_icon{
+	display: block;
+}
+.logo{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	width: 100%;
+}
+.social_growth_contents {
+	-ms-flex-pack: distribute;
+	    justify-content: space-around;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+	gap: 40px;
+}
+.benefits_sponsorship_contents {
+	-ms-flex-pack: distribute;
+	    justify-content: space-around;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+	gap: 30px;
+}
+.transform_child_img img {
+	margin-bottom: 0px;
+}
+.transform_child {
+	padding: 45px 40px 40px 45px;
+}
+.join_our_newslatter_contents form {
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+	gap: 30px;
+}
+.footer_contents {
+	gap: 30px;
+}
+.footer_logo a img {
+	width: 210px;
+}
+
+}
+
+
+
+@media all and (max-width: 991px){
+.banner_img {
+	text-align: center;
+}
+.banner_row .col-lg-7{
+	-webkit-box-ordinal-group: 3;
+	    -ms-flex-order: 2;
+	        order: 2;
+	margin-top: 25px;
+}
+.banner {
+	padding: 30px 20px;
+}
+.about_row{
+	gap: 25px;
+}
+.out_home_row {
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: reverse;
+	    -ms-flex-direction: column-reverse;
+	        flex-direction: column-reverse;
+}
+.anniversary_video iframe {
+	height: 400px;
+}
+.engage_our_mission_contents {
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+	gap: 25px;
+}
+.engage_our_mission_single {
+	-webkit-box-flex: 0;
+	    -ms-flex: 0 0 48%;
+	        flex: 0 0 48%;
+}
+.social_growth_single {
+	max-width: 100%;
+	-webkit-box-flex: 0;
+	    -ms-flex: 0 0 47%;
+	        flex: 0 0 47%;
+}
+.benefits_sponsorship_single {
+	width: 100%;
+	-webkit-box-flex: 0;
+	    -ms-flex: 0 0 47%;
+	        flex: 0 0 47%;
+}
+.integrated_approach_items {
+	gap: 30px;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+}
+.integrated_approach_items .col-lg-4 {
+	-webkit-box-flex: 0;
+	    -ms-flex: 0 0 47%;
+	        flex: 0 0 47%;
+}
+.transform_child_conmain{
+	gap: 30px;
+}
+.integrated_approach_items .col-md-4 {
+	-webkit-box-flex: 0;
+	    -ms-flex: 0 0 47%;
+	        flex: 0 0 47%;
+}
+.faqs_section_items,.contact_us_contents{
+	gap: 30px;
+}
+.footer_contents {
+	gap: 40px;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+}
+.footer_contents_right_single .fcrs_uls ul {
+	max-width: 320px;
+}
+.footer_copyright {
+	flex-direction: column;
+}
+.footer_copyright p {
+	order: 2;
+	margin: 3px 0px 6px 0px;
+}
+.footer_copyright ul {
+	order: 3;
+}
+
+}
+
+
+
+@media all and (max-width: 767px){
+.anniversary_video iframe {
+	height: 300px;
+}
+.engage_our_mission_single {
+	-webkit-box-flex: 0;
+	    -ms-flex: 0 0 100%;
+	        flex: 0 0 100%;
+}
+.social_growth_single {
+	-webkit-box-flex: 0;
+	    -ms-flex: 0 0 46%;
+	        flex: 0 0 46%;
+}
+.benefits_sponsorship_single {
+	-webkit-box-flex: 0;
+	    -ms-flex: 0 0 80%;
+	        flex: 0 0 80%;
+}
+.integrated_approach_items .col-lg-4 {
+	-webkit-box-flex: 0;
+	    -ms-flex: 0 0 100%;
+	        flex: 0 0 100%;
+}
+.integrated_approach_items .col-md-4 {
+	-webkit-box-flex: 0;
+	    -ms-flex: 0 0 100%;
+	        flex: 0 0 100%;
+}
+.meet_children_titlebtn {
+	position: absolute;
+	top: 0px;
+	-webkit-transform: inherit;
+	    -ms-transform: inherit;
+	        transform: inherit;
+	right: 0;
+}
+.meet_children_titlebtn a {
+	font-size: 16px;
+}
+.as_featured_on_items ul {
+	gap: 15px;
+}
+.as_featured_on_items ul li:nth-child(11) a img {
+	height: 65px;
+}
+.newslatter_form_single input {
+	width: 100% !important;
+}
+.newslatter_form_single {
+	width: 100%;
+}
+.join_our_newslatter_contents .contact_form_single input {
+	width: 100%;
+}
+.contact_form_single {
+	width: 100%;
+}
+.join_our_newslatter_contents form {
+	gap: 25px;
+}
+.footer_copyright {
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+	gap: 10px;
+}
+.transform_child {
+	padding: 20px 20px 20px 20px;
+}
+.benefits_sponsorship {
+	border-radius: 25px;
+}
+
+}
+
+
+
+@media all and (max-width: 575px){
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+	padding-right: 15px;
+	padding-left: 15px;
+}
+.banner {
+	padding: 20px 15px;
+}
+.banner_main {
+	padding: 30px 0px 30px 0px;
+}
+h1 {
+	font-size: 40px;
+	line-height: 55px;
+}
+.banner_contents_middle p {
+	padding: 20px 20px;
+	margin-top: 35px;
+}
+h2 {
+	font-size: 28px;
+	line-height: 40px;
+}
+.about_contents p {
+	margin-bottom: 12px;
+}
+.anniversary_video iframe {
+	height: 200px;
+}
+.social_growth_single {
+	-webkit-box-flex: 0;
+	    -ms-flex: 0 0 100%;
+	        flex: 0 0 100%;
+}
+.social_growth_single p span {
+	padding: 15px 15px;
+}
+.social_growth_contents {
+	gap: 30px;
+	margin-top: 40px;
+}
+.benefits_sponsorship_single {
+	-webkit-box-flex: 0;
+	    -ms-flex: 0 0 100%;
+	        flex: 0 0 100%;
+}
+.child_sponsorship_p p {
+	margin-top: 20px;
+}
+.btn_style {
+	padding: 14px 25px;
+	font-size: 15px;
+}
+.faqs_accrodion .accordion-button {
+	font-size: 20px;
+	line-height: 30px;
+}
+.faqs_section_items .accordion-button::after {
+	margin-left: 20px;
+}
+.as_featured_on_items ul li {
+	-webkit-box-flex: 0;
+	    -ms-flex: 0 0 40%;
+	        flex: 0 0 40%;
+}
+.contact_form_btn button {
+	padding: 18px 5px;
+}
+.join_our_newslatter_title p {
+	font-size: 16px;
+}
+.newslatter_submit button {
+	padding: 8px 16px;
+	border-radius: 6px;
+	font-size: 15px;
+}
+.footer_logo a img {
+	width: 150px;
+}
+.footer_social ul li a i {
+	font-size: 16px;
+}
+.footer_social ul li a {
+	width: 35px;
+	height: 35px;
+}
+.footer_contents_right {
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+	gap: 40px;
+}
+.footer_main {
+	padding: 50px 0px 30px 0px;
+}
+.meet_children_titlebtn a {
+	font-size: 15px;
+}
+.footer_border {
+	margin: 35px 0px 25px 0px;
+}
+.footer_copyright {
+	gap: 0px;
+}
+.footer_contents_left_imgs img {
+	width: 90px;
+}
+
+}
+
+
+
+@media all and (max-width: 450px){
+
+}
+
