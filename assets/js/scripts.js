@@ -15,30 +15,28 @@ $(document).ready(function(){
 
 
 	// Banner Carousel
-	// $('.banner_carousel').owlCarousel({
-	// 	items:1,
-	// 	loop:true,
-	// 	nav:true,
-	// 	dots:true,
-	// 	autoplay:true,
-	// 	responsive : {
-	// 	    0 : {
-	// 	        items:1,
-	// 	    },
-	// 	    480 : {
-	// 	        items:1,
-	// 	    },
-	// 	    768 : {
-	// 	        items:2,
-	// 	    },
-	// 	    992 : {
-	// 	        items:3,
-	// 	    },
-	// 	    1200 : {
-	// 	        items:4,
-	// 	    }
-	// 	}
-	// });
+	$('.help_event_carousel').owlCarousel({
+		items:3.1,
+		loop:true,
+		nav:true,
+		dots:false,
+		navText: ["<img src='assets/images/help/events/arrow_left.png'>","<img src='assets/images/help/events/arrow_right.png'>"],
+		autoplay:true,
+		responsive : {
+		    0 : {
+		        items:1,
+		    },
+		    480 : {
+		        items:1,
+		    },
+		    768 : {
+		        items:2,
+		    },
+		    992 : {
+		        items:3.1,
+		    }
+		}
+	});
 	// $( ".owl-prev").html('<i class="fa fa-chevron-left"></i>');
 	// $( ".owl-next").html('<i class="fa fa-chevron-right"></i>');
 
