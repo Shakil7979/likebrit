@@ -881,6 +881,116 @@
 	right: 0;
 }
 
+.sk_board_carousel .owl-nav {
+	position: absolute;
+	top: -108px; 
+	right: 0;
+}
+
 .sk_recent_post_area{
 	margin-bottom: 60px;
+}
+
+.about_banner_box{
+	height: 706px !important;
+	background: url(../images/about/bg.jpg) no-repeat scroll center center / cover !important;
+}
+
+.sk_gengel_content img {
+	width: 100%;
+}
+
+.sk_gengel_img {
+	display: flex;
+	align-items: end;
+	height: 100%;
+	gap: 18px;
+	justify-content: flex-end;
+}
+
+.sk_gengel_area{
+	margin-bottom: 80px;
+}
+
+.single_sk_meet_item {
+	box-shadow: 0px 8px 20px -2px #0000000A;
+	border: 1px solid #F1F3F6;
+	padding: 12px;
+	border-radius: 95px;
+	display: flex;
+	align-items: center;
+	gap: 24px;
+}
+
+.single_sk_meet_item img {
+	width: 96px !important;
+}
+
+.sk_meet_info h3 {
+	font-family: Gotham;
+	font-size: 24px;
+	font-weight: 500;
+	line-height: 38.4px;
+	text-align: left;
+	color: #09346B;
+	margin-bottom: 8px;
+}
+
+.sk_meet_info p { 
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 25.6px;
+	text-align: left;
+	color: #555555;
+}
+
+.sk_meet_area{
+	margin-bottom: 131px;
+}
+
+.sk_design_title.sk_board_title  p { 
+	max-width: 730px;
+	color: #CCCCCC;
+}
+
+.sk_board_title h2 {
+	color: #fff;
+}
+
+.sk_board_single_item img {
+	width: 134px !important;
+}
+
+.sk_board_single_item .sk_single_next_support { 
+	background: #062040;
+	border: 1.5px solid #09346B;
+	border-radius: 16px;
+	justify-content: end;
+}
+
+.sk_board_single_item .sk_single_next_support h3 { 
+	color: #F5C326; 
+	font-size: 23px;
+}
+
+.sk_board_single_item  .sk_single_next_support p {
+    margin: 8px 0;
+	color: #CCCCCC;
+}
+
+.sk_board_single_item  .btn_style2 { 
+	color: #fff; 
+}
+
+.sk_story_img img {
+	width: 100%;
+}
+
+.sk_story_area{
+	margin: 90px 0;
+}
+
+.sk_about_video {
+	margin: 30px auto;
+	width: 906px; 
 }

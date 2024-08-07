@@ -61,6 +61,29 @@ $(document).ready(function(){
 		    }
 		}
 	});
+	$('.sk_board_carousel').owlCarousel({
+		items:5,
+		loop:true,
+		margin: 20,
+		nav:true,
+		dots:false,
+		navText: ["<img src='assets/images/post/left.png'>","<img src='assets/images/post/right.png'>"],
+		autoplay:true,
+		responsive : {
+		    0 : {
+		        items:1,
+		    },
+		    480 : {
+		        items:1,
+		    },
+		    768 : {
+		        items:3,
+		    },
+		    992 : {
+		        items:5,
+		    }
+		}
+	});
 	// $( ".owl-prev").html('<i class="fa fa-chevron-left"></i>');
 	// $( ".owl-next").html('<i class="fa fa-chevron-right"></i>');
 
