@@ -1,0 +1,366 @@
+@media all and (max-width : 1400px){
+    .sk_design_title p { 
+        max-width: 1006px;
+    }
+    .sk_meet_info h3 { 
+        font-size: 18px; 
+    }
+    .sk_meet_info p {
+        font-size: 13px; 
+    }
+    .sk_board_single_item .sk_single_next_support h3 { 
+        font-size: 18px;
+    }
+    .sk_single_next_support p {
+        font-size: 13px; 
+    }
+    .sk_board_single_item .sk_single_next_support p {
+        margin: 0px 0; 
+    }
+    .sk_single_next_support { 
+        height: 210px; 
+    }
+    .sk_blog_user p { 
+        font-size: 12px; 
+        line-height: 15.4px; 
+    }
+    .sk_upper_blog.sk_simple_blog .sk_blog_user ul {
+        gap: 0;
+        margin: 12px 0;
+    }
+    .sk_upper_blog.sk_simple_blog .sk_blog_user ul {
+        gap: 0;
+        margin: 12px 0;
+        flex-direction: column;
+    }
+    .sk_blog_user ul { 
+        gap: 0; 
+        flex-direction: column;
+    }
+    .sk_blog_text h4 { 
+        font-size: 18px; 
+    }
+    .sk_blog_text p {
+        font-size: 14px; 
+        line-height: 20.6px; 
+    }
+    .sk_upper_blog.sk_simple_blog .sk_blog_text h4 {
+        margin: 0;
+    }
+    .sk_upper_blog .sk_blog_img img { 
+        height: 253px;
+        object-fit: cover;
+    }
+    .sk_second_line { 
+        right: 25px; 
+    }
+    .sk_four_line { 
+        top: 1085px;
+        right: 28px; 
+    }
+    .sk_single_next_support h3 {
+        font-size: 18px;
+        margin-top: 31px;
+    }
+    .sk_sound_list_text h5 { 
+        font-size: 12px; 
+        line-height: 13.6px; 
+    }
+    .sk_single_sound_item {
+        margin-bottom: 19px;
+    }
+    .sk_price_box h5 { 
+        font-size: 28px; 
+    }
+    .sk_price_box p {
+        font-size: 16px; 
+    }
+    .sk_blog_user ul { 
+        gap: 9px; 
+    }
+}
+@media all and (max-width : 1200px){
+    .about_banner_box {
+        height: 598px !important; 
+    }
+    .sk_design_title p {
+        max-width: 620px;
+    }
+    .sk_board_single_item img {
+        width: 108px !important;
+    }
+    .sk_upper_blog.sk_simple_blog .sk_blog_img {
+        /* width: 220px; */
+        flex: 0 0 215px;
+        /* height: 245px; */
+    }
+    .sk_first_line ,
+    .sk_second_line ,
+    .sk_third_line ,
+    .sk_four_line  { 
+        display: none;
+    }
+    .sk_timeline_row { 
+        justify-content: center;
+    }
+    .sk_second_item_overlay .btn_style { 
+        text-align: center;
+        font-size: 11px;
+    }
+    .sk_second_item_overlay p {
+        font-size: 14px; 
+        line-height: 18.6px;  
+        margin-bottom: 24px;
+        width: 91%;
+        margin: 0 auto 24px auto;
+    }
+    .sk_second_gen_item h3 {
+        font-size: 18px; 
+    }
+    .sk_single_next_support img { 
+        top: -51px; 
+        width: 88px;
+    }
+    .sk_price_box h5 {
+        font-size: 25px;
+    }
+    .sk_price_box { 
+        margin-bottom: 5px;
+    }
+    .single_price_item h4 { 
+        margin-bottom: 4px;
+    }
+    .sk_soundcloud_area {
+        padding: 30px 0;
+    }
+    .sk_post_content_box .sk_design_title p {
+        max-width: 100%;
+    }
+}
+@media all and (max-width : 991px){
+    .sk_gengel_img { 
+        margin-top: 13px;
+    }
+    .sk_meet_area  .sk_design_title p {
+        max-width: 479px;
+    }
+    .sk_design_title.sk_board_title p {
+        max-width: 491px; 
+    }
+    .help_content h4 { 
+        font-size: 39px; 
+        line-height: 45.2px; 
+    }
+    .sk_about_video img {
+        width: 100%;
+    }
+    .sk_upper_blog .sk_blog_img img {
+        height: auto; 
+    }
+    .sk_program_item { 
+        gap: 40px;
+        flex-direction: column;
+    }
+    .sk_program_item img {
+        max-width: 100%; 
+    }
+    .sk_program_item.sk_capa_first_item {
+        flex-direction: column-reverse !important;
+    }
+    .sk_capa_content .sk_program_item {
+        gap: 0; 
+    }
+    .sk_capa_content .sk_design_title { 
+        width: 100%;
+    }
+    .sk_birts_banner_text h3 { 
+        font-size: 22px; 
+    }
+    .sk_birts_banner_text p {
+        font-size: 14px; 
+        line-height: 23.6px; 
+        margin-top: 3px;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .sk_birts_banner_box {
+        height: 478px; 
+    }
+    .sk_program_single_right h4 { 
+        font-size: 18px; 
+    }
+    .sk_program_item {
+        gap: 12px; 
+    }
+    .sk_program_single_right p {
+        font-size: 14px; 
+        line-height: 21.6px; 
+        color: #777575;
+        margin: 2px 0 23px 0;
+    }
+    h2 { 
+        font-size: 23px;
+        line-height: 44px; 
+        line-height: 32px;
+    }
+    .sk_about_birts_content h6 { 
+        font-size: 14px; 
+        line-height: 21.6px; 
+    }
+    .help_content h4 { 
+        font-size: 32px; 
+        line-height: 42.2px; 
+    }
+    .single_price_item > p { 
+        text-align: center;
+    }
+    .single_price_item { 
+        margin-bottom: 25px; 
+        height: auto; 
+    }
+    .single_price_item > p { 
+        padding-bottom: 87px;
+    }
+    .sk_sound_list_box {
+        margin-top: 25px;
+    }
+    .kids_banner_area .help_content > p { 
+        width: 80%;
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 12px;
+    }
+}
+@media all and (max-width : 767px){
+    .sk_board_carousel .owl-nav {
+        position: inherit;
+        top: 0;
+        right: 0;
+    }
+    .sk_meet_carousel .owl-nav {
+        position: inherit;
+        top: 0;
+        right: 0;
+    }
+    .help_content { 
+        max-width: 450px;
+    } 
+    .sk_board_carousel   .owl-next img ,
+    .sk_board_carousel   .owl-prev img ,
+    .sk_meet_carousel  .owl-next img ,
+    .sk_meet_carousel  .owl-prev img {
+        width: 36px;
+    }
+    .help_content p {
+        font-size: 14px; 
+        line-height: 20.6px; 
+    }
+    .help_content h4 {
+        font-size: 33px;
+        line-height: 45.2px;
+    }
+    .sk_design_title p { 
+        margin: 10px 0;  
+        font-size: 14px;
+    }
+    .sk_award_area {
+        padding: 27px 0 56px 0;
+    }
+    .sk_story_area {
+        margin: 30px 0;
+    }
+    .sk_meet_area {
+        margin-bottom: 64px;
+    }
+    .sk_upper_blog.sk_simple_blog { 
+        flex-direction: column;
+    }
+    .sk_about_birts_area {
+        padding: 10px 0;
+    }
+    .sk_program_area {
+        padding: 20px 0;
+    }
+    .sk_timeline_item {
+        flex: 0 0 calc(100% / 2 - 44px); 
+    }
+    .integrated_approach_single h3 {
+        margin: 11px 0px 0px 0px; 
+        font-size: 20px;
+    }
+    .integrated_approach_single p { 
+        font-size: 14px;
+    }
+    .date_events span { 
+        font-size: 14px; 
+    }
+    .help_way_to_help_area {
+        margin-top: 36px;
+    }
+    .single_price_item > p {
+        font-size: 14px; 
+        line-height: 23.6px; 
+    }
+    .sk_second_gen_item img { 
+        height: auto; 
+    }
+    .sk_post_post_img img {
+        width: 100%;
+    }
+}
+@media all and (max-width : 576px){
+    .help_content {
+        max-width: 373px;
+        bottom: 17px;
+        left: 24px;
+    }
+    .about_banner_box {
+        height: 485px !important;
+    }
+    .sk_gengel_img img {
+        flex: 0 0 48%; 
+    }
+    .single_sk_meet_item img {
+        width: 60px !important;
+    }
+    .sk_meet_info h3 {
+        font-size: 14px;
+        margin-bottom: 0;
+    }
+    .sk_meet_info p { 
+        line-height: 18.6px; 
+    }
+    .sk_single_next_support {
+        height: 180px;
+    }
+    .sk_single_next_support img { 
+        top: -56px; 
+    }
+    .sk_blog_pagination { 
+        padding: 0;
+    }
+    .sk_blog_middle_point button { 
+        font-size: 12px; 
+        width: 25px;
+        height: 25px; 
+    }
+    .sk_blog_next button, .sk_blog_prev button { 
+        font-size: 12px; 
+    }
+    .recent_post_title h3 { 
+        font-size: 24px; 
+    }
+    .sk_post_date ul { 
+        gap: 0; 
+        flex-direction: column;
+        align-items: center;
+    }
+    .help_content h4 {
+        font-size: 25px; 
+    }
+    .sk_recent_post_carousel .owl-prev img ,
+    .sk_recent_post_carousel .owl-next img {
+        width: 34px;
+    }
+}
+@media all and (max-width : 450px){}

@@ -22,6 +22,7 @@ $(document).ready(function(){
 		dots:false,
 		navText: ["<img src='assets/images/help/events/arrow_left.png'>","<img src='assets/images/help/events/arrow_right.png'>"],
 		autoplay:true,
+		margin: 20,
 		responsive : {
 		    0 : {
 		        items:1,
@@ -33,6 +34,9 @@ $(document).ready(function(){
 		        items:2,
 		    },
 		    992 : {
+		        items:2.1,
+		    },
+		    1200 : {
 		        items:3.1,
 		    }
 		}
@@ -80,7 +84,39 @@ $(document).ready(function(){
 		        items:3,
 		    },
 		    992 : {
+		        items:4,
+		    },
+		    1200 : {
 		        items:5,
+		    }
+		}
+	});
+	$('.sk_meet_carousel').owlCarousel({
+		items:3,
+		loop:true,
+		margin: 20,
+		stagePadding: 50,
+		nav:true,
+		dots:false,
+		navText: ["<img src='assets/images/about/meet/left.png'>","<img src='assets/images/about/meet/right.png'>"],
+		autoplay:true,
+		responsive : {
+		    0 : {
+		        items:1,
+		    },
+		    480 : {
+		        items:1, 
+		    },
+		    768 : {
+		        items:2, 
+		    },
+		    992 : {
+		        items:2,
+				stagePadding: 150,
+		    },
+		    1200 : {
+		        items:3,
+				stagePadding: 150,
 		    }
 		}
 	});
