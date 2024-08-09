@@ -1134,3 +1134,63 @@ body {
 	flex: 0 0 50%;
 	width: 50%;
 }
+
+
+.image_parent {
+    overflow: hidden; /* Hide default scrollbar */
+    position: relative;
+    width: 100%;
+    height: auto; /* Adjust based on your layout */
+}
+
+.image {
+    width: 100%;
+    height: auto;
+    white-space: nowrap;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.image img {
+    width: 3800px;
+    height: auto;
+}
+
+.image::-webkit-scrollbar {
+    height: 0; /* Hide the original scrollbar */
+}
+
+.custom-scrollbar {
+    position: absolute;
+    bottom: 0;
+    left: 50%; /* Center the scrollbar */
+    transform: translateX(-50%);
+    width: 200px; /* Set custom scrollbar width */
+    height: 8px; /* Adjust scrollbar height */
+    background-color: #EAECF0; /* Scrollbar background color */
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.scrollbar-thumb {
+    position: relative;
+    height: 100%;
+    width: 40px; /* Set custom thumb width */
+    background-color: rgba(9, 52, 107, 30%); /* Thumb color */
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.recent_post_content  .sk_single_next_support { 
+	height: 238px; 
+}
+
+
+
+
+
+
+
+
+/* test  */
+

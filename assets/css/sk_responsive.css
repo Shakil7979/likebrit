@@ -225,10 +225,13 @@
         margin-top: 25px;
     }
     .kids_banner_area .help_content > p { 
-        width: 80%;
-        text-align: center;
-        margin: 0 auto;
+        width: 80%;  
         margin-bottom: 12px;
+    }
+    .help_content.sk_help_content p {
+         
+        text-align: center;
+        margin: 5px auto;
     }
 }
 @media all and (max-width : 767px){
@@ -236,6 +239,13 @@
         position: inherit;
         top: 0;
         right: 0;
+    }
+    .sk_blog_user ul { 
+        flex-direction: row;
+    }
+    .sk_upper_blog.sk_simple_blog .sk_blog_user ul {
+        gap: 9px; 
+        flex-direction: row;
     }
     .sk_meet_carousel .owl-nav {
         position: inherit;
@@ -364,3 +374,4 @@
     }
 }
 @media all and (max-width : 450px){}
+

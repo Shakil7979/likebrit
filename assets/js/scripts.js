@@ -1,3 +1,8 @@
+
+
+
+
+
 $(document).ready(function(){
 	// Mobile Menu
 	$('.menu_icon').click(function(){
@@ -126,3 +131,60 @@ $(document).ready(function(){
 
 
 });
+
+
+
+
+
+
+
+const image = document.querySelector('.image');
+const scrollbarThumb = document.querySelector('.scrollbar-thumb');
+const scrollbar = document.querySelector('.custom-scrollbar');
+
+// Update the thumb width based on content and container width ratio
+const updateThumbWidth = () => {
+    const imageWidth = image.scrollWidth;
+    const containerWidth = image.clientWidth;
+    const scrollbarWidth = scrollbar.clientWidth;
+    const thumbWidth = Math.max((containerWidth / imageWidth) * scrollbarWidth, 20); // Ensure thumb has a minimum width
+    scrollbarThumb.style.width = thumbWidth + 'px'; // Corrected line
+};
+
+// Update the thumb position based on the content scroll
+const updateThumbPosition = () => {
+    const maxScrollLeft = image.scrollWidth - image.clientWidth;
+    const scrollPercentage = image.scrollLeft / maxScrollLeft;
+    const maxThumbLeft = scrollbar.clientWidth - scrollbarThumb.clientWidth;
+    scrollbarThumb.style.left = (scrollPercentage * maxThumbLeft) + 'px'; // Corrected line
+};
+
+// Allow dragging the scrollbar thumb
+scrollbarThumb.addEventListener('mousedown', (e) => {
+    const startX = e.pageX - scrollbarThumb.offsetLeft;
+    document.onmousemove = (e) => {
+        let newX = e.pageX - startX;
+        const maxThumbLeft = scrollbar.clientWidth - scrollbarThumb.clientWidth;
+        newX = Math.max(0, Math.min(maxThumbLeft, newX));
+        scrollbarThumb.style.left = newX + 'px'; // Corrected line
+
+        const scrollPercentage = newX / maxThumbLeft;
+        image.scrollLeft = scrollPercentage * (image.scrollWidth - image.clientWidth);
+    };
+    document.onmouseup = () => {
+        document.onmousemove = null;
+    };
+});
+
+// Synchronize thumb with content scroll
+image.addEventListener('scroll', updateThumbPosition);
+window.addEventListener('resize', () => {
+    updateThumbWidth();
+    updateThumbPosition();
+});
+
+// Initialize scrollbar
+updateThumbWidth();
+updateThumbPosition();
+
+
