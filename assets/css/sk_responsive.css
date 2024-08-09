@@ -228,12 +228,12 @@
         width: 80%;  
         margin-bottom: 12px;
     }
-    .help_content.sk_help_content p {
-         
+    .help_content.sk_help_content p {         
         text-align: center;
         margin: 5px auto;
     }
 }
+
 @media all and (max-width : 767px){
     .sk_board_carousel .owl-nav {
         position: inherit;
@@ -323,6 +323,10 @@
         max-width: 373px;
         bottom: 17px;
         left: 24px;
+    }
+    .sk_modal_content p {
+        font-size: 14px; 
+        line-height: 20.8px; 
     }
     .about_banner_box {
         height: 485px !important;

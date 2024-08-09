@@ -129,6 +129,45 @@ $(document).ready(function(){
 	// $( ".owl-next").html('<i class="fa fa-chevron-right"></i>');
 
 
+	$(document).on('click','.sk_show_popup',function(){
+		$('.sk_modal_box_main_area').show();
+		$('.sk_popup_close_overlay').show();
+
+		// about content get here 
+		var sk_second_item_overlay_h3 = $(this).parent('.sk_second_item_overlay').find('h4').html();
+		var sk_second_item_overlay_p = $(this).parent('.sk_second_item_overlay').find('p').html(); 
+		var sk_second_item_overlay_a = $(this).parent('.sk_second_item_overlay').find('a').html(); 
+		
+
+		// help content set here 
+		$('.sk_model_title h4').html(sk_second_item_overlay_h3); 
+		$('.sk_model_title p').html(sk_second_item_overlay_p); 
+		$('.sk_model_title a').html(sk_second_item_overlay_a); 
+
+
+		// about content get here 
+		var get_sk_data_h3 = $(this).parent('.sk_single_next_support').find('h3').html();
+		var get_sk_data_p = $(this).parent('.sk_single_next_support').find('p').html();
+		var get_sk_data_img = $(this).parent('.sk_single_next_support').find('img').attr('src');
+
+
+
+		// about content set here 
+		$('.sk_modal_title_right h4').html(get_sk_data_h3); 
+		$('.sk_modal_title_right p').html(get_sk_data_p); 
+		$('.sk_modal_title').find('img').attr('src',get_sk_data_img);
+
+		return false;
+	});
+
+	$(document).on('click','.sk_modal_close , .sk_popup_close_overlay',function(){
+		$('.sk_modal_box_main_area').hide(); 
+		$('.sk_popup_close_overlay').hide(); 
+
+		return false;
+	});
+
+
 
 });
 
@@ -186,5 +225,8 @@ window.addEventListener('resize', () => {
 // Initialize scrollbar
 updateThumbWidth();
 updateThumbPosition();
+
+
+
 
 
