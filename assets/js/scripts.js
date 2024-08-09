@@ -131,7 +131,8 @@ $(document).ready(function(){
 
 	$(document).on('click','.sk_show_popup',function(){
 		$('.sk_modal_box_main_area').show();
-		$('.sk_popup_close_overlay').show();
+		$('.sk_popup_close_overlay').show(); 
+ 
 
 		// about content get here 
 		var sk_second_item_overlay_h3 = $(this).parent('.sk_second_item_overlay').find('h4').html();
@@ -162,7 +163,7 @@ $(document).ready(function(){
 
 	$(document).on('click','.sk_modal_close , .sk_popup_close_overlay',function(){
 		$('.sk_modal_box_main_area').hide(); 
-		$('.sk_popup_close_overlay').hide(); 
+		$('.sk_popup_close_overlay').hide();   
 
 		return false;
 	});

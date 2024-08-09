@@ -1285,3 +1285,7 @@ body {
 	text-align: center;
 	margin-bottom: 25px;
 }
+
+.no-scroll {
+    overflow: hidden;
+}
